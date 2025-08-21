@@ -1,0 +1,11 @@
+<mat-toolbar color="primary">
+  <span>RSSI Analysis Dashboard</span>
+  
+</mat-toolbar>
+
+<!-- Main content -->
+<div class="content">
+    <app-viz-container [userData]="rssiOverTime"/>
+    <app-viz-container [userData]="avg_rssi"/>
+</div>
+
